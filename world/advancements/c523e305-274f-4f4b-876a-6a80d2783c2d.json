@@ -427,6 +427,7 @@
       "bread": "2023-04-10 23:03:23 +0700",
       "rotten_flesh": "2023-04-09 23:12:19 +0700",
       "glow_berries": "2023-04-10 09:29:29 +0700",
+      "dried_kelp": "2023-04-20 23:21:42 +0700",
       "cooked_chicken": "2023-04-10 12:06:47 +0700"
     },
     "done": false
@@ -2721,6 +2722,18 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2023-04-18 22:36:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2023-04-20 23:21:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2023-04-20 23:21:17 +0700"
     },
     "done": true
   },
