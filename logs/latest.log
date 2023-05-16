@@ -1,11 +1,11 @@
-[21:17:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:17:24] [ServerMain/INFO]: Loaded 7 recipes
-[21:17:24] [ServerMain/INFO]: Loaded 1179 advancements
-[21:17:25] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[21:17:25] [Server thread/INFO]: Loading properties
-[21:17:25] [Server thread/INFO]: Default game type: SURVIVAL
-[21:17:25] [Server thread/INFO]: Generating keypair
-[21:17:25] [Server console handler/ERROR]: Exception handling console input
+[11:27:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:27:21] [ServerMain/INFO]: Loaded 7 recipes
+[11:27:21] [ServerMain/INFO]: Loaded 1179 advancements
+[11:27:22] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[11:27:22] [Server thread/INFO]: Loading properties
+[11:27:22] [Server thread/INFO]: Default game type: SURVIVAL
+[11:27:22] [Server thread/INFO]: Generating keypair
+[11:27:22] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -19,38 +19,206 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at ahq$1.run(SourceFile:89) ~[server-1.19.4.jar:?]
-[21:17:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:17:25] [Server thread/INFO]: Using default channel type
-[21:17:25] [Server thread/INFO]: Preparing level "world"
-[21:17:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:17:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:17:27] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[21:17:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:17:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:17:28] [Worker-Main-8/INFO]: Preparing spawn area: 33%
-[21:17:28] [Server thread/INFO]: Time elapsed: 2313 ms
-[21:17:28] [Server thread/INFO]: Done (3.035s)! For help, type "help"
-[21:18:45] [User Authenticator #1/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
-[21:18:45] [Server thread/INFO]: WarWinCBT[/10.147.20.11:64134] logged in with entity id 157 at (38.591645212870624, 66.0, -1658.2943584881054)
-[21:18:45] [Server thread/INFO]: WarWinCBT joined the game
-[21:19:00] [User Authenticator #2/INFO]: UUID of player ICanDeadI is c523e305-274f-4f4b-876a-6a80d2783c2d
-[21:19:00] [Server thread/INFO]: ICanDeadI[/10.147.20.91:54064] logged in with entity id 457 at (70.00950281656786, 51.0, -1699.0417374317622)
-[21:19:00] [Server thread/INFO]: ICanDeadI joined the game
-[21:22:36] [Server thread/INFO]: [WarWinCBT: Set the time to 1000]
-[21:42:01] [Server thread/INFO]: WarWinCBT has made the advancement [Getting an Upgrade]
-[22:49:31] [Server thread/INFO]: Villager bxz['Villager'/21454, l='ServerLevel[New World]', x=952.47, y=94.00, z=-1633.50] died, message: 'Villager froze to death'
-[23:19:57] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
-[23:19:57] [Server thread/INFO]: WarWinCBT left the game
-[23:22:34] [Server thread/INFO]: ICanDeadI lost connection: Disconnected
-[23:22:34] [Server thread/INFO]: ICanDeadI left the game
-[23:23:01] [Server thread/INFO]: Stopping the server
-[23:23:01] [Server thread/INFO]: Stopping server
-[23:23:01] [Server thread/INFO]: Saving players
-[23:23:01] [Server thread/INFO]: Saving worlds
-[23:23:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23:23:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23:23:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23:23:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:23:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:23:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:23:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:27:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:27:22] [Server thread/INFO]: Using default channel type
+[11:27:22] [Server thread/INFO]: Preparing level "world"
+[11:27:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:27:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:27:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:27:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:27:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:27:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:27:25] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[11:27:25] [Worker-Main-5/INFO]: Preparing spawn area: 94%
+[11:27:26] [Server thread/INFO]: Time elapsed: 3013 ms
+[11:27:26] [Server thread/INFO]: Done (3.700s)! For help, type "help"
+[13:42:11] [User Authenticator #1/INFO]: UUID of player ICanDeadI is c523e305-274f-4f4b-876a-6a80d2783c2d
+[13:42:11] [Server thread/INFO]: ICanDeadI[/10.147.20.91:57327] logged in with entity id 110 at (44.04391484991884, 67.0, -1658.3147610949031)
+[13:42:11] [Server thread/INFO]: ICanDeadI joined the game
+[13:54:42] [User Authenticator #2/INFO]: UUID of player zitga is 735f95e1-796f-448d-a66b-d7d0db655151
+[13:54:42] [Server thread/INFO]: zitga[/10.147.20.229:59863] logged in with entity id 4132 at (-1260.4697299169736, 64.0, -1760.0594818055451)
+[13:54:42] [Server thread/INFO]: zitga joined the game
+[13:55:43] [Server thread/INFO]: <zitga> hi
+[14:15:32] [Server thread/INFO]: <zitga> Õ“µ¡’„∫∫—«ª–
+[14:40:53] [Server thread/INFO]: ICanDeadI lost connection: Disconnected
+[14:40:53] [Server thread/INFO]: ICanDeadI left the game
+[14:48:33] [Server thread/INFO]: Villager bxz['Librarian'/15890, l='ServerLevel[New World]', x=-1193.50, y=63.00, z=-1786.51] died, message: 'Librarian was slain by zitga'
+[15:51:39] [User Authenticator #3/INFO]: UUID of player NMZNemeziZ is 914b4f76-a401-4547-9ba8-0a0015484407
+[15:51:39] [Server thread/INFO]: NMZNemeziZ[/10.147.20.31:56965] logged in with entity id 35031 at (2450.8247990058658, 65.0, -1680.386964530882)
+[15:51:39] [Server thread/INFO]: NMZNemeziZ joined the game
+[15:55:22] [Server thread/INFO]: zitga lost connection: Disconnected
+[15:55:22] [Server thread/INFO]: zitga left the game
+[15:56:08] [User Authenticator #4/INFO]: UUID of player zitga is 735f95e1-796f-448d-a66b-d7d0db655151
+[15:56:08] [Server thread/INFO]: zitga[/10.147.20.229:65091] logged in with entity id 36819 at (-1230.075981127345, -5.0, -1969.647910258312)
+[15:56:08] [Server thread/INFO]: zitga joined the game
+[16:01:28] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=2470, y=74, z=-1656} gt{x=2471, y=73, z=-1656}
+[16:10:40] [User Authenticator #5/INFO]: UUID of player ICanDeadI is c523e305-274f-4f4b-876a-6a80d2783c2d
+[16:10:40] [Server thread/INFO]: ICanDeadI[/10.147.20.91:54991] logged in with entity id 45431 at (45.58571988379073, 68.0, -1666.2789344430364)
+[16:10:40] [Server thread/INFO]: ICanDeadI joined the game
+[16:10:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2220ms or 44 ticks behind
+[16:33:55] [Server thread/INFO]: Villager bxz['Villager'/35160, l='ServerLevel[New World]', x=2356.83, y=63.00, z=-1812.06] died, message: 'Villager was slain by Zombie'
+[16:34:03] [Server thread/INFO]: Villager bxz['Villager'/35158, l='ServerLevel[New World]', x=2357.02, y=63.00, z=-1810.81] died, message: 'Villager was slain by Zombie'
+[16:34:11] [Server thread/INFO]: Villager bxz['Villager'/35159, l='ServerLevel[New World]', x=2357.13, y=63.00, z=-1811.19] died, message: 'Villager was slain by Zombie'
+[16:34:21] [Server thread/INFO]: Villager bxz['Farmer'/42383, l='ServerLevel[New World]', x=2359.64, y=63.00, z=-1811.27] died, message: 'Farmer was slain by Zombie'
+[16:34:29] [Server thread/INFO]: Villager bxz['Villager'/35175, l='ServerLevel[New World]', x=2356.10, y=63.00, z=-1811.73] died, message: 'Villager was slain by Zombie'
+[16:41:24] [Server thread/INFO]: NMZNemeziZ has made the advancement [Suit Up]
+[16:41:57] [Server thread/INFO]: zitga lost connection: Disconnected
+[16:41:57] [Server thread/INFO]: zitga left the game
+[16:44:34] [User Authenticator #6/INFO]: UUID of player zitga is 735f95e1-796f-448d-a66b-d7d0db655151
+[16:44:34] [Server thread/INFO]: zitga[/10.147.20.229:50553] logged in with entity id 76487 at (-1060.0741585007677, -30.0, -2129.4991786007317)
+[16:44:34] [Server thread/INFO]: zitga joined the game
+[16:54:49] [User Authenticator #7/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
+[16:54:49] [Server thread/INFO]: WarWinCBT[/10.147.20.11:51707] logged in with entity id 84132 at (2129.1377266740383, 74.0, -2011.4895955520722)
+[16:54:49] [Server thread/INFO]: WarWinCBT joined the game
+[17:03:00] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
+[17:03:00] [Server thread/INFO]: WarWinCBT left the game
+[17:03:56] [Server thread/INFO]: ICanDeadI lost connection: Disconnected
+[17:03:56] [Server thread/INFO]: ICanDeadI left the game
+[17:04:44] [User Authenticator #8/INFO]: UUID of player MORRMOSSS is 8ca0989d-07a4-4120-ad9f-d23b4cc2ad14
+[17:04:44] [Server thread/INFO]: MORRMOSSS[/10.147.20.154:61442] logged in with entity id 91228 at (212.19836551923666, 91.0, -343.3506819720178)
+[17:04:44] [Server thread/INFO]: MORRMOSSS joined the game
+[17:04:52] [User Authenticator #9/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
+[17:04:52] [Server thread/INFO]: WarWinCBT[/10.147.20.11:53220] logged in with entity id 91496 at (2053.070213047753, 72.0, -1985.2294861135051)
+[17:04:52] [Server thread/INFO]: WarWinCBT joined the game
+[17:06:42] [Server thread/INFO]: <WarWinCBT> 69 69 -1600
+[17:08:03] [Server thread/INFO]: MORRMOSSS has made the advancement [Stone Age]
+[17:10:48] [Server thread/INFO]: MORRMOSSS has made the advancement [Getting an Upgrade]
+[17:13:18] [Server thread/INFO]: MORRMOSSS has made the advancement [Monster Hunter]
+[17:15:20] [Server thread/INFO]: Villager bxz['Villager'/35187, l='ServerLevel[New World]', x=2359.60, y=63.00, z=-1811.83] died, message: 'Villager was slain by Zombie'
+[17:16:58] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
+[17:16:58] [Server thread/INFO]: WarWinCBT left the game
+[17:19:13] [User Authenticator #10/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
+[17:19:13] [Server thread/INFO]: WarWinCBT[/10.147.20.11:54196] logged in with entity id 103601 at (2189.1084682713654, 76.0, -1887.713727238127)
+[17:19:13] [Server thread/INFO]: WarWinCBT joined the game
+[17:25:07] [User Authenticator #11/INFO]: Disconnecting /10.147.20.220:51519: Failed to verify username!
+[17:25:07] [User Authenticator #11/ERROR]: Username 'NmzSlashba' tried to join with an invalid session
+[17:25:07] [Server thread/INFO]: /10.147.20.220:51519 lost connection: Failed to verify username!
+[17:25:27] [User Authenticator #12/INFO]: Disconnecting /10.147.20.220:51537: Failed to verify username!
+[17:25:27] [User Authenticator #12/ERROR]: Username 'NmzSlashba' tried to join with an invalid session
+[17:25:27] [Server thread/INFO]: /10.147.20.220:51537 lost connection: Failed to verify username!
+[17:26:27] [Server thread/INFO]: NMZNemeziZ has made the advancement [Hot Stuff]
+[17:27:09] [User Authenticator #13/INFO]: Disconnecting /10.147.20.220:51692: Failed to verify username!
+[17:27:09] [User Authenticator #13/ERROR]: Username 'NmzSlashba' tried to join with an invalid session
+[17:27:09] [Server thread/INFO]: /10.147.20.220:51692 lost connection: Failed to verify username!
+[17:29:41] [Server thread/INFO]: MORRMOSSS lost connection: Disconnected
+[17:29:41] [Server thread/INFO]: MORRMOSSS left the game
+[17:34:59] [User Authenticator #14/INFO]: UUID of player MORRMOSSS is 8ca0989d-07a4-4120-ad9f-d23b4cc2ad14
+[17:34:59] [Server thread/INFO]: MORRMOSSS[/10.147.20.154:57565] logged in with entity id 116459 at (-36.890463906655405, 68.0, -1662.1179383952997)
+[17:34:59] [Server thread/INFO]: MORRMOSSS joined the game
+[17:45:19] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=314, y=16, z=-335} gt{x=313, y=15, z=-334}
+[17:46:28] [Server thread/INFO]: MORRMOSSS has made the advancement [Acquire Hardware]
+[17:46:46] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=311, y=18, z=-376} gt{x=310, y=14, z=-375}
+[17:46:46] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=311, y=18, z=-376} gt{x=310, y=14, z=-375}
+[17:46:46] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=311, y=18, z=-376} gt{x=310, y=14, z=-375}
+[17:49:33] [Server thread/INFO]: MORRMOSSS has made the advancement [Isn't It Iron Pick]
+[17:50:58] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=292, y=15, z=-342} gt{x=275, y=14, z=-317}
+[17:51:33] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=291, y=12, z=-290} gt{x=291, y=12, z=-289}
+[17:52:15] [Server thread/INFO]: MORRMOSSS was shot by Skeleton
+[17:53:53] [Server thread/INFO]: MORRMOSSS was slain by Polar Bear
+[17:54:17] [Server thread/INFO]: MORRMOSSS lost connection: Disconnected
+[17:54:17] [Server thread/INFO]: MORRMOSSS left the game
+[17:54:57] [Server thread/INFO]: NMZNemeziZ has made the advancement [Diamonds!]
+[17:55:51] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=355, y=10, z=-230} gt{x=356, y=11, z=-230}
+[17:56:27] [User Authenticator #15/INFO]: UUID of player MORRMOSSS is 8ca0989d-07a4-4120-ad9f-d23b4cc2ad14
+[17:56:27] [Server thread/INFO]: MORRMOSSS[/10.147.20.154:60652] logged in with entity id 136403 at (175.4489282677181, 63.0, -414.8244270439698)
+[17:56:27] [Server thread/INFO]: MORRMOSSS joined the game
+[17:57:03] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=86, z=-360} gt{x=224, y=86, z=-360}
+[17:57:05] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=85, z=-360} gt{x=224, y=85, z=-360}
+[17:57:14] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=87, z=-360} gt{x=224, y=86, z=-360}
+[17:57:29] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=87, z=-359} gt{x=224, y=87, z=-359}
+[17:58:05] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=87, z=-359} gt{x=224, y=86, z=-360}
+[17:58:06] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=85, z=-361} gt{x=224, y=85, z=-361}
+[17:58:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=85, z=-362}
+[17:58:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=85, z=-361}
+[17:58:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-361}
+[17:58:11] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=85, z=-361}
+[17:58:11] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-361}
+[17:58:12] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-360}
+[17:58:12] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-359}
+[17:58:13] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-360}
+[17:58:21] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=223, y=83, z=-363} gt{x=224, y=86, z=-359}
+[17:59:29] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=455, y=15, z=-228} gt{x=454, y=15, z=-229}
+[17:59:45] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=459, y=14, z=-229} gt{x=459, y=14, z=-230}
+[17:59:45] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=459, y=14, z=-229} gt{x=459, y=14, z=-230}
+[17:59:50] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=461, y=14, z=-228} gt{x=462, y=13, z=-228}
+[17:59:50] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=461, y=14, z=-228} gt{x=462, y=13, z=-228}
+[18:06:57] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=216, y=85, z=-370} gt{x=229, y=82, z=-372}
+[18:06:58] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=216, y=85, z=-370} gt{x=228, y=82, z=-372}
+[18:06:59] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=216, y=85, z=-370} gt{x=228, y=82, z=-369}
+[18:08:08] [Server thread/INFO]: <zitga> 2477.492 61 -1680.406
+[18:08:21] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=216, y=84, z=-370} gt{x=235, y=83, z=-384}
+[18:10:22] [Server thread/INFO]: NMZNemeziZ lost connection: Disconnected
+[18:10:22] [Server thread/INFO]: NMZNemeziZ left the game
+[18:30:41] [User Authenticator #16/INFO]: UUID of player OhHo5555 is 5995bb52-d334-4954-ae9f-180cef96a833
+[18:30:41] [Server thread/INFO]: OhHo5555[/10.147.20.105:64837] logged in with entity id 159784 at (47.5, 72.5625, -1660.5)
+[18:30:41] [Server thread/INFO]: OhHo5555 joined the game
+[18:38:58] [Server thread/INFO]: MORRMOSSS lost connection: Disconnected
+[18:38:58] [Server thread/INFO]: MORRMOSSS left the game
+[18:46:28] [User Authenticator #17/INFO]: UUID of player ICanDeadI is c523e305-274f-4f4b-876a-6a80d2783c2d
+[18:46:28] [Server thread/INFO]: ICanDeadI[/10.147.20.91:65377] logged in with entity id 169962 at (55.56314399040298, 68.0, -1643.2921023950678)
+[18:46:28] [Server thread/INFO]: ICanDeadI joined the game
+[18:57:40] [Server thread/INFO]: zitga lost connection: Disconnected
+[18:57:40] [Server thread/INFO]: zitga left the game
+[18:58:22] [User Authenticator #18/INFO]: UUID of player zitga is 735f95e1-796f-448d-a66b-d7d0db655151
+[18:58:22] [Server thread/INFO]: zitga[/10.147.20.229:58499] logged in with entity id 176601 at (-1243.3049201737003, 59.0, -1848.300000011921)
+[18:58:22] [Server thread/INFO]: zitga joined the game
+[19:00:03] [Server thread/INFO]: zitga lost connection: Disconnected
+[19:00:03] [Server thread/INFO]: zitga left the game
+[19:00:43] [User Authenticator #19/INFO]: UUID of player zitga is 735f95e1-796f-448d-a66b-d7d0db655151
+[19:00:43] [Server thread/INFO]: zitga[/10.147.20.229:58640] logged in with entity id 178096 at (-1239.4160892945897, 58.0, -1848.9538671984153)
+[19:00:43] [Server thread/INFO]: zitga joined the game
+[19:07:10] [Server thread/INFO]: ICanDeadI lost connection: Disconnected
+[19:07:10] [Server thread/INFO]: ICanDeadI left the game
+[19:07:14] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
+[19:07:14] [Server thread/INFO]: WarWinCBT left the game
+[19:35:10] [User Authenticator #20/INFO]: UUID of player MORRMOSSS is 8ca0989d-07a4-4120-ad9f-d23b4cc2ad14
+[19:35:10] [Server thread/INFO]: MORRMOSSS[/10.147.20.154:56135] logged in with entity id 197969 at (220.2256822594014, 88.0, -331.5808465038583)
+[19:35:10] [Server thread/INFO]: MORRMOSSS joined the game
+[19:47:57] [Server thread/INFO]: OhHo5555 lost connection: Disconnected
+[19:47:57] [Server thread/INFO]: OhHo5555 left the game
+[19:48:51] [Server thread/INFO]: MORRMOSSS has made the advancement [A Seedy Place]
+[20:15:37] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=306, y=76, z=-356} gt{x=305, y=75, z=-354}
+[20:20:08] [User Authenticator #21/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
+[20:20:08] [Server thread/INFO]: WarWinCBT[/10.147.20.11:64388] logged in with entity id 228721 at (2129.5242234849093, 74.0, -2014.4623414945845)
+[20:20:08] [Server thread/INFO]: WarWinCBT joined the game
+[20:23:15] [User Authenticator #22/INFO]: UUID of player ICanDeadI is c523e305-274f-4f4b-876a-6a80d2783c2d
+[20:23:15] [Server thread/INFO]: ICanDeadI[/10.147.20.91:55614] logged in with entity id 230597 at (60.68517409948114, 67.9375, -1638.5369465887438)
+[20:23:15] [Server thread/INFO]: ICanDeadI joined the game
+[20:26:13] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=206, y=35, z=-367} gt{x=224, y=65, z=-365}
+[20:34:56] [Server thread/INFO]: MORRMOSSS lost connection: Disconnected
+[20:34:56] [Server thread/INFO]: MORRMOSSS left the game
+[20:36:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[20:36:23] [Server thread/WARN]: WarWinCBT moved too quickly! -0.029972948044544978,0.7531999805212024,-10.087228115575726
+[20:44:59] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-74, y=67, z=-1630} gt{x=-73, y=69, z=-1627}
+[21:01:44] [Server thread/INFO]: zitga has made the advancement [The Cutest Predator]
+[21:04:13] [Server thread/INFO]: zitga has made the advancement [Tactical Fishing]
+[21:40:26] [Server thread/WARN]: Boat (vehicle of WarWinCBT) moved wrongly! 0.3114759495459225
+[21:40:26] [Server thread/WARN]: Boat (vehicle of WarWinCBT) moved wrongly! 0.3802190220151829
+[22:09:30] [Server thread/INFO]: <ICanDeadI> zzz
+[22:12:31] [Server thread/INFO]: [WarWinCBT: Set the time to 18000]
+[22:12:51] [Server thread/INFO]: [WarWinCBT: Set the time to 6000]
+[22:13:32] [Server thread/INFO]: [WarWinCBT: Set the time to 18000]
+[22:13:44] [Server thread/INFO]: [WarWinCBT: Set the time to 6000]
+[22:15:40] [Server thread/INFO]: Villager bxz['Librarian'/295522, l='ServerLevel[New World]', x=-1193.50, y=63.06, z=-1786.51] died, message: 'Librarian was slain by zitga'
+[22:22:20] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
+[22:22:20] [Server thread/INFO]: WarWinCBT left the game
+[22:31:17] [Server thread/INFO]: ICanDeadI lost connection: Disconnected
+[22:31:17] [Server thread/INFO]: ICanDeadI left the game
+[22:31:23] [Server thread/INFO]: zitga lost connection: Disconnected
+[22:31:23] [Server thread/INFO]: zitga left the game
+[22:32:06] [User Authenticator #23/INFO]: UUID of player WarWinCBT is 27988b4d-e79a-46e3-a647-4f79813fe50e
+[22:32:06] [Server thread/INFO]: WarWinCBT[/10.147.20.11:55532] logged in with entity id 306569 at (2129.260321051913, 74.0, -2010.9476821797014)
+[22:32:06] [Server thread/INFO]: WarWinCBT joined the game
+[22:32:12] [Server thread/INFO]: WarWinCBT lost connection: Disconnected
+[22:32:12] [Server thread/INFO]: WarWinCBT left the game
+[22:32:21] [Server thread/INFO]: Stopping the server
+[22:32:21] [Server thread/INFO]: Stopping server
+[22:32:21] [Server thread/INFO]: Saving players
+[22:32:21] [Server thread/INFO]: Saving worlds
+[22:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
